@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Enterprise SPICE",
+      "description": "Übergeordneter Prozess für Enterprise SPICE",
+      "subProcesses": [
+        {
+          "name": "Enterprise Governance",
+          "description": "Prozess zur Steuerung des Unternehmens",
+          "subProcesses": [
+            {
+              "name": "GVM.1.BP1 - Erstellung und Pflege der Strategie",
+              "description": "Erstellen, pflegen und kommunizieren Sie eine strategische Vision, die langfristige Ziele, Werte, Leistungserwartungen und Kernaktivitäten identifiziert.",
+              "inputs": [
+                "Empfehlungen zur Verbesserung von Produkten und Dienstleistungen",
+                "Geschäftsziele",
+                "..."
+              ],
+              "activities": [
+                {
+                  "name": "Empfehlungen zur Verbesserung von Produkten und Dienstleistungen",
+                  "description": "Verwendung der Empfehlungen zur Verbesserung von Produkten und Dienstleistungen als Trigger"
+                },
+                "..."
+              ],
+              "outputs": [
+                "Bewertungen der strategischen Vision",
+                "Hauptaktivitäten",
+                "..."
+              ]
+            },
+            "..."
+          ]
+        },
+        "..."
+      ]
+    }
+  ]

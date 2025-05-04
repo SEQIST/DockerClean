@@ -1,0 +1,86 @@
+{
+    "likelihoodMatrix": [
+      {
+        "level": 1,
+        "description": "Rare",
+        "percentageRange": { "from": 0, "to": 5 },
+        "criteria": "Ereignis tritt sehr selten ein (z. B. < 5% Wahrscheinlichkeit)."
+      },
+      {
+        "level": 2,
+        "description": "Unlikely",
+        "percentageRange": { "from": 6, "to": 20 },
+        "criteria": "Ereignis ist unwahrscheinlich, aber möglich (z. B. 6-20% Wahrscheinlichkeit)."
+      },
+      {
+        "level": 3,
+        "description": "Possible",
+        "percentageRange": { "from": 21, "to": 50 },
+        "criteria": "Ereignis ist möglich (z. B. 21-50% Wahrscheinlichkeit)."
+      },
+      {
+        "level": 4,
+        "description": "Likely",
+        "percentageRange": { "from": 51, "to": 80 },
+        "criteria": "Ereignis ist wahrscheinlich (z. B. 51-80% Wahrscheinlichkeit)."
+      },
+      {
+        "level": 5,
+        "description": "Almost Certain",
+        "percentageRange": { "from": 81, "to": 100 },
+        "criteria": "Ereignis ist fast sicher (z. B. > 80% Wahrscheinlichkeit)."
+      }
+    ],
+    "severityMatrix": [
+      {
+        "level": 1,
+        "description": "Negligible",
+        "criteria": {
+          "projectCostPercentage": { "from": 0, "to": 1 },
+          "repairTimeDays": { "from": 0, "to": 1 },
+          "additionalCosts": { "from": 0, "to": 1000 }
+        },
+        "criteriaDescription": "Minimaler Einfluss: < 1% der Projektkosten, < 1 Tag Reparaturzeit, < 1.000 € zusätzliche Kosten."
+      },
+      {
+        "level": 2,
+        "description": "Marginal",
+        "criteria": {
+          "projectCostPercentage": { "from": 2, "to": 5 },
+          "repairTimeDays": { "from": 2, "to": 5 },
+          "additionalCosts": { "from": 1001, "to": 5000 }
+        },
+        "criteriaDescription": "Geringer Einfluss: 2-5% der Projektkosten, 2-5 Tage Reparaturzeit, 1.001-5.000 € zusätzliche Kosten."
+      },
+      {
+        "level": 3,
+        "description": "Critical",
+        "criteria": {
+          "projectCostPercentage": { "from": 6, "to": 10 },
+          "repairTimeDays": { "from": 6, "to": 10 },
+          "additionalCosts": { "from": 5001, "to": 10000 }
+        },
+        "criteriaDescription": "Mittlerer Einfluss: 6-10% der Projektkosten, 6-10 Tage Reparaturzeit, 5.001-10.000 € zusätzliche Kosten."
+      },
+      {
+        "level": 4,
+        "description": "Very Critical",
+        "criteria": {
+          "projectCostPercentage": { "from": 11, "to": 20 },
+          "repairTimeDays": { "from": 11, "to": 20 },
+          "additionalCosts": { "from": 10001, "to": 50000 }
+        },
+        "criteriaDescription": "Hoher Einfluss: 11-20% der Projektkosten, 11-20 Tage Reparaturzeit, 10.001-50.000 € zusätzliche Kosten."
+      },
+      {
+        "level": 5,
+        "description": "Catastrophical",
+        "criteria": {
+          "projectCostPercentage": { "from": 21, "to": 100 },
+          "repairTimeDays": { "from": 21, "to": 100 },
+          "additionalCosts": { "from": 50001, "to": 1000000 }
+        },
+        "criteriaDescription": "Katastrophaler Einfluss: > 20% der Projektkosten, > 20 Tage Reparaturzeit, > 50.000 € zusätzliche Kosten."
+      }
+    ]
+  }

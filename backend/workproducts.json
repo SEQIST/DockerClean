@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Work Breakdown Structure (WBS)",
+    "number": "ESP-403",
+    "description": "Eine detaillierte Struktur, die alle Arbeitspakete eines Projekts hierarchisch darstellt",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Projektmanagement-Software",
+      "Dokumentenmanagementsystem",
+      "Wissensmanagementsysteme"
+    ]
+  },
+  {
+    "name": "Zeitplan",
+    "number": "ESP-404",
+    "description": "Ein Plan, der die zeitliche Abfolge von Aufgaben und Meilensteinen beschreibt",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Projektmanagement-Software",
+      "Dokumentenmanagementsystem",
+      "Wissensmanagementsysteme"
+    ]
+  },
+  {
+    "name": "Zeitplan zur Einführung von Innovationen",
+    "number": "ESP-405",
+    "description": "Ein Zeitplan, der die Einführung von Innovationen plant",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Innovationsmanagement-Software",
+      "Projektmanagement-Software",
+      "Dokumentenmanagementsystem"
+    ]
+  },
+  {
+    "name": "Zeitplanbasierte Baseline",
+    "number": "ESP-406",
+    "description": "Eine Baseline, die auf einem bestimmten Zeitplan basiert",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Konfigurationsmanagement-Werkzeuge",
+      "Dokumentenmanagementsystem",
+      "Projektmanagement-Software"
+    ]
+  },
+  {
+    "name": "Ziele",
+    "number": "ESP-407",
+    "description": "Ziele, die messbar und erreichbar sind",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Strategie-Management-Software",
+      "Dokumentenmanagementsystem",
+      "Wissensmanagementsysteme"
+    ]
+  },
+  {
+    "name": "Zielvorgaben",
+    "number": "ESP-408",
+    "description": "Spezifische Vorgaben für Ziele",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Strategie-Management-Software",
+      "Dokumentenmanagementsystem",
+      "Wissensmanagementsysteme"
+    ]
+  },
+  {
+    "name": "Zugeteilte Budgets",
+    "number": "ESP-409",
+    "description": "Budgets, die verschiedenen Projekten oder Abteilungen zugeteilt wurden",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Finanzmanagement-Software",
+      "ERP-System",
+      "Dokumentenmanagementsystem"
+    ]
+  },
+  {
+    "name": "Zugeteilte Mitarbeiter",
+    "number": "ESP-410",
+    "description": "Mitarbeiter, die bestimmten Projekten oder Aufgaben zugeteilt wurden",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Personalmanagement-Software",
+      "Projektmanagement-Software",
+      "Dokumentenmanagementsystem"
+    ]
+  },
+  {
+    "name": "Zugeteilte Ressourcen",
+    "number": "ESP-411",
+    "description": "Ressourcen, die für bestimmte Aufgaben oder Projekte zugeteilt wurden",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Ressourcenmanagement-Software",
+      "ERP-System",
+      "Dokumentenmanagementsystem"
+    ]
+  },
+  {
+    "name": "Zugangskontrollrichtlinien",
+    "number": "ESP-412",
+    "description": "Richtlinien, die den Zugang zu bestimmten Ressourcen oder Informationen regeln",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Sicherheitsmanagement-Software",
+      "Dokumentenmanagementsystem",
+      "Wissensmanagementsysteme"
+    ]
+  },
+  {
+    "name": "Zugangskontrollverfahren",
+    "number": "ESP-413",
+    "description": "Verfahren, die den Zugang zu bestimmten Ressourcen oder Informationen kontrollieren",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Sicherheitsmanagement-Software",
+      "Dokumentenmanagementsystem",
+      "Wissensmanagementsysteme"
+    ]
+  },
+  {
+    "name": "Zusammenfassung der Bewertungsergebnisse",
+    "number": "ESP-414",
+    "description": "Eine Zusammenfassung der Ergebnisse aus Bewertungen",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Bewertungssoftware",
+      "Dokumentenmanagementsystem",
+      "Wissensmanagementsysteme"
+    ]
+  },
+  {
+    "name": "Zusammenfassung der Kundenanforderungen",
+    "number": "ESP-415",
+    "description": "Eine Zusammenfassung der Anforderungen, die von Kunden gestellt wurden",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Anforderungsmanagement-Software",
+      "Dokumentenmanagementsystem",
+      "CRM-Software"
+    ]
+  },
+  {
+    "name": "Zusammenfassung der Leistungsberichte",
+    "number": "ESP-416",
+    "description": "Eine Zusammenfassung von Leistungsberichten",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Leistungsmanagement-Software",
+      "Dokumentenmanagementsystem",
+      "Wissensmanagementsysteme"
+    ]
+  },
+  {
+    "name": "Zusammenfassungen der Bewertung von Innovationen",
+    "number": "ESP-417",
+    "description": "Zusammenfassungen der Bewertung von Innovationen",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Innovationsmanagement-Software",
+      "Dokumentenmanagementsystem",
+      "Wissensmanagementsysteme"
+    ]
+  },
+  {
+    "name": "Zusammenfassungen der Lieferantenbewertung",
+    "number": "ESP-418",
+    "description": "Zusammenfassungen der Bewertung von Lieferanten",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Lieferantenmanagement-Software",
+      "Bewertungssoftware",
+      "Dokumentenmanagementsystem"
+    ]
+  },
+  {
+    "name": "Zwischenberichte",
+    "number": "ESP-419",
+    "description": "Berichte, die während eines Projekts oder Prozesses erstellt werden, um den aktuellen Stand zu dokumentieren",
+    "useMode": "Internal",
+    "cost": null,
+    "digitalisierbarDurch": [
+      "Projektmanagement-Software",
+      "Dokumentenmanagementsystem",
+      "Wissensmanagementsysteme"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+// tsconfig.tests.json
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": "src",
+    "paths": {
+      "*": ["*"],
+      "features/*": ["features/*"]
+    },
+    "types": ["jest", "@testing-library/jest-dom"],
+    "typeRoots": ["./node_modules/@types", "./types"]
+  },
+  "include": ["tests/**/*", "src/**/*"],
+  "exclude": ["node_modules", "src/pages/**/*", "src/components/**/*"]
+}
